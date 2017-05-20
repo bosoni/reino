@@ -7,10 +7,10 @@ public class Util
 {
 	private static boolean DEBUG = true;
 	private static boolean WRITE_LOG = true;
-	private static boolean DESKTOP = Gdx.app.getType() == ApplicationType.Desktop;
 
 	public static void println(String txt)
 	{
+		boolean DESKTOP = Gdx.app.getType() == ApplicationType.Desktop;
 		if (DEBUG && DESKTOP)
 			System.out.println("DEBUG: " + txt);
 
