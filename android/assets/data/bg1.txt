@@ -1,0 +1,42 @@
+NAME: ovi
+LOOK: ovi on kiinni.
+TOUCH: ovi ei aukea.
+USE: avain
+  TEXT: avasit oven avaimella.
+  REMOVE: avain
+
+NAME: jukebox
+LOOK: tässä jukeboxissa on vain 1 levy.
+LOOK: löytyy vain röllin parhaat.
+TOUCH: jukeboxi ei toimi.
+TOUCH: PAUK! löit jukeboxia tuloksetta.
+USE: raha
+  TEXT: jukebuxi toimii vain kolikoilla.
+USE: parikymppiä
+  TEXT: jukebuxi toimii vain kolikoilla.
+
+NAME: man
+LOOK: joku pummi.
+TOUCH: -häivy pummi, sanoit.
+USE: raha
+  TEXT: -vie väärät rahasi mennessäsi, sanoi pummi.
+USE: kossu
+  TEXT: -aah viinaa tänks. saat parikymppiä, sanoi lerssi.
+  REMOVE: kossu
+  ADD: parikymppiä raha.png
+
+NAME: pullo
+LOOK: pöydällä on lähes tyhjä kossupullo. myyjä on tainnut maistella.
+TOUCH: -ÄLÄ KOSKE MUN VESIPULLOON! huusi myyjä.
+
+NAME: myyja
+LOOK: myyjä ei kiinnitä sinuun mitään huomiota.
+TOUCH: -HÄIVY, murahti myyjä.
+USE: kossu 
+  TEXT: -EI KIITOS, MULLA ON OMATKIN JUOMAT, ärjyi myyjä.
+USE: raha 
+  TEXT: -ÄLÄ TARJOA VÄÄRÄÄ RAHAA MULLE, PERSKELE! huusi myyjä.
+USE: parikymppiä 
+  TEXT: -saat avaimen. 
+  REMOVE: parikymppiä
+  ADD: avain avain.png

@@ -1,0 +1,53 @@
+NAME: ikkuna
+LOOK: ikkuna on kiinni.
+LOOK: ikkuna on likainen.
+TOUCH: ikkuna ei aukea.
+TOUCH: ikkuna on jumissa.
+
+NAME: man1
+LOOK: joku juoppo.
+LOOK: juoppo kyylää sua.
+LOOK: kylläpäs tuo juoppo haisee pahalle.
+TOUCH: -äläsh törkhi mua shenkin shhh, örisi juoppo.
+TOUCH: -olet ruma, örisi juoppo.
+USE: raha
+  TEXT: -ei kiitos, en tarvitse rahaa, olen miljardööri! sanoi juntti.
+USE: parikymppiä
+  TEXT: -pikkurahoja, pidä se, sanoi munapää.
+USE: kossu
+  TEXT: -ei maistu nyt, örisi juoppo.
+
+NAME: man2
+LOOK: juoppoja piha täys.
+LOOK: typerä juoppo.
+TOUCH: -moro typerä juoppo, sanoit.
+TOUCH: -häivy, sanoit.
+USE: raha
+  TEXT: -tuhlaa itse se, sanoi dorka.
+USE: parikymppiä
+  TEXT: -en halua sitä, sanoi daiju.
+USE: kossu
+  TEXT: -juon vain olutta, sanoi pässi.
+
+
+NAME: roskis
+LOOK: se on roskis.
+TOUCH: en halua tonkia roskista.
+TOUCH: ei siellä nyt ole mitään tarpeellista. 
+USE: raha
+  TEXT: et halua heittää rahaa roskiin.
+USE: parikymppiä
+  TEXT: et halua heittää rahaa roskiin.
+USE: kossu
+  TEXT: et todellakaan heitä kossua pois!
+
+NAME: rakennus
+LOOK: joku kottero.
+
+NAME: kossu
+LOOK: ahaa, täysinäinen kossupullo.
+TAKE: otanpas kossun mukaani.
+
+NAME: raha
+LOOK: maassa näyttäisi olevan 20 euroa.
+TAKE: tämähän on väärennös!
